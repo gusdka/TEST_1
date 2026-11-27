@@ -16,7 +16,7 @@ public class MainFrame extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);    // x 누르면 프로그램 종료
 
         JTabbedPane tabs = new JTabbedPane();
-        tabs.addTab("입출차", new JPanel());   // 다음 단계: EntryPanel로 교체
+        tabs.addTab("입출차", new EntryPanel(service));
         tabs.addTab("현황 맵", new JPanel());
         tabs.addTab("정기권", new JPanel());
         tabs.addTab("기록 조회", new JPanel());
