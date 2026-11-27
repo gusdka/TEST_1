@@ -4,10 +4,10 @@ import service.ParkingService;
 
 import javax.swing.*;
 
-public class MainFrame extends JFrame{
+public class MainFrame extends JFrame {
     private final ParkingService service; // 화면이 아는 유일한 백엔드 창구
 
-    public MainFrame(ParkingService service){
+    public MainFrame(ParkingService service) {
         this.service = service;
 
         setTitle("주차장 관리 시스템");
